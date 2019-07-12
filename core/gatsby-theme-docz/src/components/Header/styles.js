@@ -2,23 +2,16 @@ import * as mixins from '~utils/mixins'
 
 export const wrapper = {
   bg: 'header.bg',
+  position: 'relative',
+  borderBottom: t => `1px solid ${t.colors.border}`,
 }
 
 export const innerContainer = {
   ...mixins.centerAlign,
-  p: 4,
+  px: 4,
+  py: '24px',
   position: 'relative',
   justifyContent: 'space-between',
-}
-
-export const link = {
-  fontSize: 3,
-  fontWeight: 600,
-  color: 'header.text',
-  textDecoration: 'none',
-  ':hover': {
-    color: 'primary',
-  },
 }
 
 export const headerButton = {

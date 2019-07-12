@@ -20,11 +20,11 @@ export const light = {
   },
   header: {
     bg: colors.grayExtraLight,
-    text: colors.dark,
+    text: colors.grayDark,
     border: colors.grayLight,
     button: {
-      bg: colors.grayLight,
-      color: colors.grayDark,
+      bg: colors.blue,
+      color: colors.white,
     },
   },
   props: {
@@ -70,7 +70,7 @@ export const dark = {
     text: colors.grayLight,
     border: colors.grayDark,
     button: {
-      bg: colors.grayDark,
+      bg: colors.skyBlue,
       color: colors.white,
     },
   },
